@@ -7,9 +7,6 @@ import time
 Pequod = bluetooth.BLE()
 # 导入BLE类（船长亚哈）
 Ahab = BLEsetup.BLESimplePeripheral(Pequod)
-ad = Pequod.config('mac')
-print('mac地址为')
-print(ad)
 
 # 控制正转反转
 IN1 = 2

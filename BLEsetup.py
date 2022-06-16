@@ -67,9 +67,8 @@ def advertising_payload(limited_disc=False, br_edr=False, name=None, services=No
     return payload
 
 
-# BLE类
 class BLESimplePeripheral:
-    def __init__(self, ble, name="Pequod"):  # ble名称
+    def __init__(self, ble, name="Pequod"):
         self._ble = ble
         self._ble.active(True)
         self._ble.irq(self._irq)
