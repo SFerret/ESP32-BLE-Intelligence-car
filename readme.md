@@ -48,7 +48,9 @@ if sw1.value() == 1 and sw2.value() == 1 and sw3.value() == 1 and sw4.value() ==
 if sw2.value() == 1 and sw2.value() == 0 and sw3.value() == 0 and sw4.value() == 1 and sw5.value() == 1:
     pass
 ```
-##小车蓝牙参考MicroPython官方在Github给出的示例文件，实现ESP32的BLE调用
+
+## 小车蓝牙参考MicroPython官方在Github给出的示例文件，实现ESP32的BLE调用
+
 >https://github.com/micropython/micropython/blob/master/examples/bluetooth/ble_simple_central.py
 
 ```python
