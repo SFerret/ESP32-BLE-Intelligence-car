@@ -175,3 +175,8 @@ class BLESimplePeripheral:
         return self._write_callback
 ```
 通过手机的蓝牙串口软件向小车发送指令实现对小车方向控制，及小车循迹模式的开启
+
+## 小车无线充电
+
+发射端构建硬件，搭建逆变器，将DC输入转为AC正弦波输出，通过线圈发射实现无线充电；受电端通过先去接受AC交流电源，通过整流滤波及稳压DCDC，实现受电到超级电容充电，实现无线充电受电及储能。
+![Charge](/img/Charge.jpg)
